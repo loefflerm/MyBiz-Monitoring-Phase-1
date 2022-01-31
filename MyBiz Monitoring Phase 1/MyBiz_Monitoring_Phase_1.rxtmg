@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="9.3">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="2307a3dd-f6a2-483b-b25d-196ef4b3268b"
+			name="MyBiz_Monitoring_Phase_1">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="2307a3dd-f6a2-483b-b25d-196ef4b3268b"
+			name="MyBiz_Monitoring_Phase_1">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

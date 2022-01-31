@@ -1,0 +1,16 @@
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\MyBiz_Monitoring_Phase_1.rxtmg
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\MyBiz_Monitoring_Phase_1.rxtst
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\MyBiz Monitoring Phase 1.exe.config
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\MyBiz Monitoring Phase 1.xml
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\MyBiz Monitoring Phase 1.exe
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\MyBiz Monitoring Phase 1.pdb
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\obj\x86\Debug\MyBiz Monitoring Phase 1.csprojResolveAssemblyReference.cache
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\obj\x86\Debug\MyBiz Monitoring Phase 1.exe
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\obj\x86\Debug\MyBiz Monitoring Phase 1.pdb
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\RepositoryImages\MyBiz_Monitoring_Phase_1Repositoryf0cbb8b4.rximgres
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\NewCustomTemplate1\RanorexReport.css
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\NewCustomTemplate1\RanorexReport.png
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\NewCustomTemplate1\RanorexReport.xsl
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\NewCustomTemplate1\View.rxlog
+C:\Users\loefflerm\Documents\Ranorex\RanorexStudio Projects\MyBiz Monitoring Phase 1\MyBiz Monitoring Phase 1\bin\Debug\NewCustomTemplate1\View.rxlog.data

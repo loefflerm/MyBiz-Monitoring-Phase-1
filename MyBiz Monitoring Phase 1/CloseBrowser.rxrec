@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c6ca07f7-b48d-46a8-bf4f-4a57b690faca"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="MyBiz_Monitoring_Phase_1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="2bfde19b-37b4-4e20-b247-128f9b0c695e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b51efdab-fdae-4793-8806-e849fafc4b99"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="cf8d105c-23a9-4f8a-b9cc-597345d4317a"
+	name="MyBiz_Monitoring_Phase_1Repository"
+	relativepath="MyBiz_Monitoring_Phase_1Repository.rxrep">
+		<codegen
+		classname="MyBiz_Monitoring_Phase_1Repository"
+		namespace="MyBiz_Monitoring_Phase_1">
+		</codegen>
+		<rootfolder
+		id="f0cbb8b4-bdf1-408c-8d1c-8a5e833f8702"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

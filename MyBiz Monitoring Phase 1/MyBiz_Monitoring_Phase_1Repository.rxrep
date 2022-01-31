@@ -1,0 +1,258 @@
+﻿<repository
+id="cf8d105c-23a9-4f8a-b9cc-597345d4317a"
+name="MyBiz_Monitoring_Phase_1Repository">
+	<codegen
+	classname="MyBiz_Monitoring_Phase_1Repository"
+	namespace="MyBiz_Monitoring_Phase_1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f0cbb8b4-bdf1-408c-8d1c-8a5e833f8702"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="b51efdab-fdae-4793-8806-e849fafc4b99"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="1d8a1ed0-22af-4e4a-bfba-3626cc1efc52"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="77d646d7-e19d-4aa5-a1c5-3ecc964e9c86"
+			name="ABMELDEN"
+			refimgid="342fe00a-ef94-43df-b90f-e1c801a6e64c"
+			refpath="/dom[@domain='mybiz.magenta.at']//div[#'page-content-container']/div[1]/ul/li[7]/a[@innertext='ABMELDEN']"
+			searchtimeout="30000ms">
+				/dom[@domain='mybiz.magenta.at']//div[#'page-content-container']/?/?/ul/?/?/a[@innertext='ABMELDEN']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="49551ed2-12ca-488f-9b26-35f8af20df38"
+			name="ErneuterLogin"
+			refimgid="3ef8819e-de2a-412f-8f05-6077adec7b00"
+			refpath="/dom[@domain='mybiz.magenta.at']//div[#'help_buttons']/a[@innertext='Erneuter Login']"
+			searchtimeout="30000ms">
+				/dom[@domain='mybiz.magenta.at']//div[#'help_buttons']/a[@innertext='Erneuter Login']
+			</item>
+			<folder
+			capname="divtag"
+			id="24dbe4f0-b1fc-4ac3-8c79-80797781e5d7"
+			isrooted="True"
+			name="Content"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,h1tag"
+				capname="h1tag"
+				id="b99bcd2b-23e3-4d84-ae96-7c66d647fae9"
+				name="Rufnummernplan"
+				refimgid="908d2d3d-64fa-47fd-a6ca-ed3c8a7f2851"
+				refpath="/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/tag[@tagname='app-root']/tag[@tagname='app-overview']/div[1]/h1[@innertext='Rufnummernplan']"
+				searchtimeout="30000ms">
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/?/?/div/?/?/tag[@tagname='app-overview']/div[1]/h1[@innertext='Rufnummernplan']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="84548995-fe2a-4858-8155-fdb72fc5de76"
+				name="BreakTextInColumnDivTextInColumnNgSta"
+				refimgid="cef220d8-5402-4317-b6a3-b397c6eb6f88"
+				refpath="/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/tag/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[2]/tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/tr/td[@title='Markus']/div"
+				searchtimeout="30000ms">
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/?/?/div/?/?/tag[@tagname='app-overview']/div[5]/div//tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/?/?/td[@title='Markus']/div
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="837de131-a0c2-445e-9a84-17370a516d36"
+				name="SpanTag436763684123"
+				refimgid="7fc1f3dd-0465-448f-9780-8b273ecdc268"
+				refpath="/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/tag[@tagname='app-root']/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[2]/tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/tr/td[@title='43676 3684123']/div/span[@innertext='43676 3684123']"
+				searchtimeout="30000ms">
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/?/?/div/?/?/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[2]/tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/?/?/td[@title='43676 3684123']/?/?/span[@innertext='43676 3684123']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="f7a82346-508b-4156-9754-455e173483ad"
+				name="BIZInclusiveVPN500"
+				refimgid="c26cde61-02f3-4bb4-a1a1-3efbb4bae903"
+				refpath="/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/tag/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[2]/tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/tr/td[@title='BIZ Inclusive VPN 500']/div/div[@innertext='BIZ Inclusive VPN 500']"
+				searchtimeout="30000ms">
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/?/?/div/?/?/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[2]/tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/?/?/td[@title='BIZ Inclusive VPN 500']/?/?/div[@innertext='BIZ Inclusive VPN 500']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="8e30d09b-f2be-423a-b44c-46fa9afaae87"
+				name="Markus"
+				refimgid="00f0532c-ff1c-4dcc-96a7-f8ffb8fb6dbf"
+				refpath="/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/tag[@tagname='app-root']/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[2]/tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/tr/td[@title='Markus']/div/span[@innertext='Markus']"
+				searchtimeout="30000ms">
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/?/?/div/?/?/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[2]/tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/?/?/td[@title='Markus']/?/?/span[@innertext='Markus']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="17f3d2a2-2c67-4980-97e3-b2a027eee15b"
+				name="TMobileGmbH16530Testautomatisierun"
+				refimgid="57088a07-8c87-4688-af04-40750dee02b5"
+				refpath="/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/tag[@tagname='app-root']/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[2]/tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/tr/td[7]/div/div[@innertext='T-Mobile GmbH (16530) Testautomatisierung SQA']"
+				searchtimeout="30000ms">
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/?/?/div/?/?/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[2]/tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/tr/td[7]/?/?/div[@innertext&gt;'T-Mobile GmbH (16530) Testautomatisierung']
+				</item>
+				<basepath>
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/?/?/div
+				</basepath>
+			</folder>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="ecc2023e-cd27-4c5a-9fc9-2c252dff1ff3"
+			isrooted="True"
+			name="PCol12"
+			refpath="/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/tag[@tagname='app-root']/tag[@tagname='app-overview']/div[5]/div/div[1]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,tdtag"
+				capname="tdtag"
+				id="b73f74bc-179b-4acf-be5d-012a696a022a"
+				name="TdTag777"
+				refimgid="62bf989d-b7cf-4e51-a75e-e1764ff71332"
+				refpath="/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/tag/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[2]/tag[@tagname='p-table']/div/div[1]/div/div[2]/table/tbody/tr/td[@title='777']"
+				searchtimeout="30000ms">
+					<image
+					guid="35e80028-974a-43f3-8293-18f4cb9f8273"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAAHgAAABICAYAAAA9HjF/AAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAApdJREFUeF7t2L1r6lAcxvH+Tw4ODsVBEHGR6qAgguDk5laEotCpQxFB
+B0HcRBwEQSdxEkEHcSqKYDtIwZdBHLRUir97zyEWcnt69zw8HzhEjicu3yQmuRmNRsKBOxgYfNzI
+X+oDYWJgcAwMjoHBMTA4BgbHwOAYGBwDg2NgcAwMjoHBMTA4BgbHwOAYGBwDg2NgcAwMjoHBMTA4
+BgbHwOAYGBwDg2NgcAwMjoHBMTA4BgYHEXi/30sikRCXy/VjtNttvUZtTd+r/dT+Hx8fks1mjWuK
+xaL+DSeCCPz5+SnT6VTG4/H3KJVK4vV6ZTKZ6DXv7++27/v9vsRiMcnlcjru19eXvLy82NbU63W5
+vb2VTqejf8OJIC/Ru91OUqmUVCoVHe5fl8tFn9F3d3fy9vZmzdodj0d5eHj4PgCcCi6wiler1fTZ
+uV6vrVm71WolkUhEGo2GXm/S6/UkEAjIbDazZpwJLvA1XrVaNca7HgChUEivNTkcDpJOpyWfz+vL
+v5PBBW42m+L3+2WxWFgzdtvtVuLxuDw/Pxsv38pwOBSPx6O3TgcVWP1vZjIZPdRnk8FgoO+M1dZE
+RX96epJoNCqbzcaadS6owPP5XHw+n748m1zjhcNhfVdtoqKquI+Pj3I+n61Z54IK3O129dmpHnFM
+1H9rMpmU+/t7OZ1O1qydetxyu93SarWsGWeDCqxeSKg73+Vyac3Yvb6+SjAYlEKh8Ovd8/WFyG8H
+idPABFZ3u+q5VQVUIU2uZ+f/3kyVy2Ud+PqCxOmgzmD6iYHBMTA4BgbHwOAYGBwDg2NgcAwMjoHB
+MTA4BgbHwOAYGBwDg2NgcAwMjoHBMTA4BgbHwOAYGBwDg2NgcAwMjoHBMTA4BgbHwNBE/gCPLBX/
+KZkmNAAAAABJRU5ErkJggg==
+					</image>
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/?/?/tag[@tagname='app-overview']/div[5]/div/div[1]//tag[@tagname='p-table']/div/div[1]/div/div[2]/table//td[@title='777']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="cd044fa0-a99c-46b1-8ed2-45dfad6603a0"
+				name="NgTnsC6512UiAutocompleteUiAutocom"
+				refimgid="3ca564da-4f85-4c83-9c53-1e8a47a5d126"
+				refpath="/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/tag/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[1]/tag/div/div/div[1]/span/div/tag[@tagname='p-autocomplete']/span"
+				searchtimeout="30000ms">
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/?/?/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[1]/tag/div/div/div[1]//tag[@tagname='p-autocomplete']/span
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="012db9b4-073e-48c0-83a3-ce0b0c1a7802"
+				name="Text"
+				refimgid="e32e017a-526a-4741-b917-f913b7b8599e"
+				refpath="/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/tag/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[1]/tag/div/div/div[1]/span/div/tag[@tagname='p-autocomplete']/span/ul/li/input[@type='text']"
+				searchtimeout="30000ms">
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/?/?/tag[@tagname='app-overview']/div[5]/div/div[1]/div/div[1]/tag/div/div/div[1]//ul/?/?/input[@type='text']
+				</item>
+				<basepath>
+					/dom[@domain='mybiz.magenta.at']//iframe[#'frmMain']/body/div/?/?/tag[@tagname='app-overview']/div[5]/div/div[1]
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='mybiz.magenta.at']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="c3d76017-8f3b-4d07-a91d-3d782d0ccce9"
+		isrooted="True"
+		name="MagentaMyBusinessStation"
+		refpath="/dom[@domain='tgate.magenta.at']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b8e29698-a045-4d8b-b870-1651db78e3ab"
+			name="JUsername"
+			refimgid="d44e511b-fab5-441e-8a1b-2adf39acce9f"
+			refpath="/dom[@domain='tgate.magenta.at']//input[#'j_username']"
+			searchtimeout="30000ms">
+				/dom[@domain='tgate.magenta.at']//input[#'j_username']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="634ba03b-6ca5-44d9-82d6-3a56dc4678b6"
+			name="JPassword"
+			refimgid="af8908b3-b8cb-43eb-a86e-44db5101f2b2"
+			refpath="/dom[@domain='tgate.magenta.at']//input[#'j_password']"
+			searchtimeout="30000ms">
+				/dom[@domain='tgate.magenta.at']//input[#'j_password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d1afa893-bcde-4ad3-85ef-155f04ad38b7"
+			name="Submit"
+			refimgid="c6165203-106c-4cb8-be77-7a1177d6a2ca"
+			refpath="/dom[@domain='tgate.magenta.at']//input[#'submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='tgate.magenta.at']//input[#'submit']
+			</item>
+			<basepath>
+				/dom[@domain='tgate.magenta.at']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2cdb2bc8-9cda-4e1a-ba20-d6f45c4a19c8"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="MyBiz_Monitoring_Phase_1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://mybiz.magenta.at
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="cf8d105c-23a9-4f8a-b9cc-597345d4317a"
+	name="MyBiz_Monitoring_Phase_1Repository"
+	relativepath="MyBiz_Monitoring_Phase_1Repository.rxrep">
+		<codegen
+		classname="MyBiz_Monitoring_Phase_1Repository"
+		namespace="MyBiz_Monitoring_Phase_1">
+		</codegen>
+		<rootfolder
+		id="f0cbb8b4-bdf1-408c-8d1c-8a5e833f8702"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

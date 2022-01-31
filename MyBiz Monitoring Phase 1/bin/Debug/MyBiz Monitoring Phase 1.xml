@@ -1,0 +1,437 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyBiz Monitoring Phase 1</name>
+    </assembly>
+    <members>
+        <member name="T:MyBiz_Monitoring_Phase_1.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyBiz_Monitoring_Phase_1.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the MyBiz_Monitoring_Phase_1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyBiz_Monitoring_Phase_1.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1Repository">
+            <summary>
+            The class representing the MyBiz_Monitoring_Phase_1Repository element repository.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyBiz_Monitoring_Phase_1Repository element repository.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1Repository.MagentaMyBusinessStation">
+            <summary>
+            The MagentaMyBusinessStation folder.
+            </summary>
+        </member>
+        <member name="T:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ApplicationUnderTestAppFolder.ABMELDEN">
+            <summary>
+            The ABMELDEN item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ApplicationUnderTestAppFolder.ABMELDENInfo">
+            <summary>
+            The ABMELDEN item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ApplicationUnderTestAppFolder.ErneuterLogin">
+            <summary>
+            The ErneuterLogin item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ApplicationUnderTestAppFolder.ErneuterLoginInfo">
+            <summary>
+            The ErneuterLogin item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ApplicationUnderTestAppFolder.Content">
+            <summary>
+            The Content folder.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ApplicationUnderTestAppFolder.PCol12">
+            <summary>
+            The PCol12 folder.
+            </summary>
+        </member>
+        <member name="T:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder">
+            <summary>
+            The ContentFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Content  folder.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.Rufnummernplan">
+            <summary>
+            The Rufnummernplan item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.RufnummernplanInfo">
+            <summary>
+            The Rufnummernplan item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.BreakTextInColumnDivTextInColumnNgSta">
+            <summary>
+            The BreakTextInColumnDivTextInColumnNgSta item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.BreakTextInColumnDivTextInColumnNgStaInfo">
+            <summary>
+            The BreakTextInColumnDivTextInColumnNgSta item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.SpanTag436763684123">
+            <summary>
+            The SpanTag436763684123 item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.SpanTag436763684123Info">
+            <summary>
+            The SpanTag436763684123 item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.BIZInclusiveVPN500">
+            <summary>
+            The BIZInclusiveVPN500 item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.BIZInclusiveVPN500Info">
+            <summary>
+            The BIZInclusiveVPN500 item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.Markus">
+            <summary>
+            The Markus item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.MarkusInfo">
+            <summary>
+            The Markus item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.TMobileGmbH16530Testautomatisierun">
+            <summary>
+            The TMobileGmbH16530Testautomatisierun item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.ContentFolder.TMobileGmbH16530TestautomatisierunInfo">
+            <summary>
+            The TMobileGmbH16530Testautomatisierun item info.
+            </summary>
+        </member>
+        <member name="T:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder">
+            <summary>
+            The PCol12Folder folder.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PCol12  folder.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.TdTag777">
+            <summary>
+            The TdTag777 item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.TdTag777Info">
+            <summary>
+            The TdTag777 item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.NgTnsC6512UiAutocompleteUiAutocom">
+            <summary>
+            The NgTnsC6512UiAutocompleteUiAutocom item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.NgTnsC6512UiAutocompleteUiAutocomInfo">
+            <summary>
+            The NgTnsC6512UiAutocompleteUiAutocom item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="T:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.TdTag777InfoClass">
+            <summary>
+            The TdTag777InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.TdTag777InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            TdTag777InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.TdTag777InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.PCol12Folder.TdTag777InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.MagentaMyBusinessStationAppFolder">
+            <summary>
+            The MagentaMyBusinessStationAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.MagentaMyBusinessStationAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MagentaMyBusinessStation  folder.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.MagentaMyBusinessStationAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.MagentaMyBusinessStationAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.MagentaMyBusinessStationAppFolder.JUsername">
+            <summary>
+            The JUsername item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.MagentaMyBusinessStationAppFolder.JUsernameInfo">
+            <summary>
+            The JUsername item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.MagentaMyBusinessStationAppFolder.JPassword">
+            <summary>
+            The JPassword item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.MagentaMyBusinessStationAppFolder.JPasswordInfo">
+            <summary>
+            The JPassword item info.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.MagentaMyBusinessStationAppFolder.Submit">
+            <summary>
+            The Submit item.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.MyBiz_Monitoring_Phase_1RepositoryFolders.MagentaMyBusinessStationAppFolder.SubmitInfo">
+            <summary>
+            The Submit item info.
+            </summary>
+        </member>
+        <member name="T:MyBiz_Monitoring_Phase_1.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyBiz_Monitoring_Phase_1.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the MyBiz_Monitoring_Phase_1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyBiz_Monitoring_Phase_1.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyBiz_Monitoring_Phase_1.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MyBiz_Monitoring_Phase_1.Recording1.repo">
+            <summary>
+            Holds an instance of the MyBiz_Monitoring_Phase_1Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyBiz_Monitoring_Phase_1.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyBiz_Monitoring_Phase_1.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.Recording1.TdTag777_Screenshot1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:MyBiz_Monitoring_Phase_1.Recording1.TdTag777_Screenshot1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>
